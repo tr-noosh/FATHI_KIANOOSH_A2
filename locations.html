@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="styles/zero.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<title>Locations - Dunkeltaler Forest</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="script.js"></script>
+</head>
+<body>
+<header>
+	<img src="/images/aso_logo.png" alt="Alpen Signal Observatorium logo">
+	<nav>
+		<h1>Dunkeltaler Forest</h1>
+		<ul>
+			<li><a href="/index.html"><span>Home</span></a></li>
+			<li><a href="/gallery.html"><span>Gallery</span></a></li>
+			<li><a href="/activities.html"><span>Activities</span></a></li>
+			<li><a href="/locations.html"><span>Locations</span></a></li>
+		</ul>
+	</nav>
+</header>
+<main>
+	<div id="locations-page">
+		<div id="locations-map"><img src="images/map.png" usemap="#locmap" alt="Interactive map of park.">
+			<map name="locmap">
+				<area shape="circle" coords="365,365,25" onclick="pick_location('alpha');">
+				<area shape="circle" coords="415,465,25" onclick="pick_location('bravo');">
+				<area shape="circle" coords="365,465,25" onclick="pick_location('charlie');">
+				<area shape="circle" coords="315,465,25" onclick="pick_location('delta');">
+				<area shape="circle" coords="265,415,25" onclick="pick_location('echo');">
+				<area shape="circle" coords="265,365,25" onclick="pick_location('foxtrot');">
+				<area shape="circle" coords="265,315,25" onclick="pick_location('golf');">
+				<area shape="circle" coords="315,265,25" onclick="pick_location('hotel');">
+				<area shape="circle" coords="365,265,25" onclick="pick_location('india');">
+				<area shape="circle" coords="415,265,25" onclick="pick_location('juliett');">
+				<area shape="circle" coords="465,315,25" onclick="pick_location('kilo');">
+				<area shape="circle" coords="465,365,25" onclick="pick_location('lima');">
+				<area shape="circle" coords="465,415,25" onclick="pick_location('mike');">
+				<area shape="circle" coords="515,515,25" onclick="pick_location('november');">
+				<area shape="circle" coords="215,515,25" onclick="pick_location('oscar');">
+				<area shape="circle" coords="215,215,25" onclick="pick_location('papa');">
+				<area shape="circle" coords="515,215,25" onclick="pick_location('quebec');">
+				<area shape="circle" coords="615,615,25" onclick="pick_location('romeo');">
+				<area shape="circle" coords="365,615,25" onclick="pick_location('sierra');">
+				<area shape="circle" coords="115,615,25" onclick="pick_location('tango');">
+				<area shape="circle" coords="115,365,25" onclick="pick_location('uniform');">
+				<area shape="circle" coords="115,115,25" onclick="pick_location('victor');">
+				<area shape="circle" coords="365,115,25" onclick="pick_location('whiskey');">
+				<area shape="circle" coords="615,115,25" onclick="pick_location('xray');">
+				<area shape="circle" coords="615,365,25" onclick="pick_location('yankee');">
+				<area shape="circle" coords="167,262,25" onclick="pick_location('tr_1');">
+				<area shape="circle" coords="642,242,25" onclick="pick_location('tr_2');">
+				<area shape="circle" coords="563,597,25" onclick="pick_location('tr_3');">
+				<area shape="circle" coords="175,657,25" onclick="pick_location('william');">
+				
+			</map>
+		</div>
+		<div id="location-desc">
+			<div class="location" id="alpha">
+				<h2>Alpha Root Base</h2>
+				<img src="/images/locations/alpha.png" alt="Photo of the Alpha Root Base.">
+			</div>
+			<div class="location" id="bravo">
+				<h2>Satellite Bravo</h2>
+				<img src="/images/locations/bravo.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="charlie">
+				<h2>Satellite Charlie</h2>
+				<img src="/images/locations/charlie.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="delta">
+				<h2>Satellite Delta</h2>
+				<img src="/images/locations/delta.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="echo">
+				<h2>Satellite Echo</h2>
+				<img src="/images/locations/echo.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="foxtrot">
+				<h2>Satellite Foxtrot</h2>
+				<img src="/images/locations/foxtrot.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="golf">
+				<h2>Satellite Golf</h2>
+				<img src="/images/locations/golf.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="hotel">
+				<h2>Satellite Hotel</h2>
+				<img src="/images/locations/hotel.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="india">
+				<h2>Satellite India</h2>
+				<img src="/images/locations/india.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="juliett">
+				<h2>Satellite Juliett</h2>
+				<img src="/images/locations/juliett.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="kilo">
+				<h2>Satellite Kilo</h2>
+				<img src="/images/locations/kilo.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="lima">
+				<h2>Satellite Lima</h2>
+				<img src="/images/locations/lima.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="mike">
+				<h2>Satellite Mike</h2>
+				<img src="/images/locations/mike.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="november">
+				<h2>Satellite November</h2>
+				<img src="/images/locations/november.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="oscar">
+				<h2>Satellite Oscar</h2>
+				<img src="/images/locations/oscar.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="papa">
+				<h2>Satellite Papa</h2>
+				<img src="/images/locations/papa.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="quebec">
+				<h2>Satellite Quebec</h2>
+				<img src="/images/locations/quebec.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="romeo">
+				<h2>Satellite Romeo</h2>
+				<img src="/images/locations/romeo.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="sierra">
+				<h2>Satellite Sierra</h2>
+				<img src="/images/locations/sierra.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="tango">
+				<h2>Satellite Tango</h2>
+				<img src="/images/locations/tango.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="uniform">
+				<h2>Satellite Uniform</h2>
+				<img src="/images/locations/uniform.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="victor">
+				<h2>Satellite Victor</h2>
+				<img src="/images/locations/victor.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="whiskey">
+				<h2>Satellite Whiskey</h2>
+				<img src="/images/locations/whiskey.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="xray">
+				<h2>Satellite Xray</h2>
+				<img src="/images/locations/xray.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="yankee">
+				<h2>Satellite Yankee</h2>
+				<img src="/images/locations/yankee.png" alt="Photo of satellite.">
+			</div>
+			<div class="location" id="tr_1">
+				<h2>TR1</h2>
+				<img src="/images/locations/tr_1.png" alt="Photo of transformer station.">
+			</div>
+			<div class="location" id="tr_2">
+				<h2>TR2</h2>
+				<img src="/images/locations/tr_2.png" alt="Photo of transformer station.">
+			</div>
+			<div class="location" id="tr_3">
+				<h2>TR3</h2>
+				<img src="/images/locations/tr_3.png" alt="Photo of transformer station.">
+			</div>
+			<div class="location" id="william">
+				<h2>William The Protector</h2>
+				<img src="/images/locations/william.png" alt="Photo of oxidized copper goat statue with 4 horns.">
+				<p><i>
+					"And may the hungry be fed...<br>
+					...may the weak be defended...<br>
+					...and my enemies shall perish.<br>
+					<br>
+					In the memory of the great one.<br>
+					The one who protects us."<br>
+				</i></p>
+			</div>
+		</div>
+	</div>
+</main>
+<footer>
+	<img src="/images/aso_logo_bw.png" alt="Monochromatic Alpen Signal Observatorium logo"><img src="/images/stolas_logo_bw.png" alt="Monochromatic STOLAS logo">
+	<div>
+		<h5>Assets obtained from <a href="https://mrdrnose.itch.io/votv">Voices of the Void</a>.</h5>
+	</div>
+</footer>
+</body>
+<script src="script.js"></script>
+<!-- <script>pick_location("alpha");</script> -->
+</html>
