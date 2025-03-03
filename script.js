@@ -5,7 +5,7 @@ function nav(page) {
 }
 
 function gallery(number) {
-	bigpic.src = `/images/photos/${parseInt(number)}.png`;
+	bigpic.src = `images/photos/${parseInt(number)}.png`;
 }
 
 function pick_location(name) {
