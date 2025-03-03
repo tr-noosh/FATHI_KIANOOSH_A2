@@ -1,7 +1,0 @@
-# Reflection
-
-The hardest part for this one was writing all the text paragraphs and alt text, as well as a few other tedious repetitive tasks. I do think it came out pretty well though, I had a thematic idea in mind that helped me choose how the colors and layout should look, and I did a lot better making a more responsive design this time, often using the browser tools to let me test it. It's not perfect though, but I feel I fixed all the major issues with the different screen widths.
-
-The text isnt as descriptive as I hoped and I don't know where would have been a good place to use the image size optimzation stuff there didnt' feel like any good places to use them. The image map thing is something I remember seeing a long time ago that was interesting though I never used it up until now. I never knew it only took pixel values as input thats pretty strange considering how units work everywhere else in HTML.
-
-I hope either way that this one is good. I put a lot of effort into this one, especially since I was dealing with increased ADHD symtoms and the like. I'm still very behind on assignments for my other classes sadly, and I hope I can catch up with those. I thank my teacher again for the extra time extension I was allowed though.
